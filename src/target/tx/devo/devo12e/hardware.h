@@ -5,7 +5,7 @@
 
 #define BUTTON_MATRIX { \
 /*          PE.2             PE.3             PE.4             PE.5             PE.6         */  \
-/*PB.4*/    BUT_LEFT,        BUT_RIGHT,       BUT_ENTER,       BUT_TRIM_RH_POS, BUT_TRIM_RH_NEG, \
+/*PB.4*/    BUT_RIGHT,       BUT_LEFT,        BUT_ENTER,       BUT_TRIM_RH_POS, BUT_TRIM_RH_NEG, \
 /*PB.5*/    BUT_DOWN,        BUT_UP,          BUT_EXIT,        BUT_TRIM_LH_NEG, BUT_TRIM_LH_POS, \
 /*PB.8*/    BUT_LAST,        BUT_TRIM_R_POS,  BUT_TRIM_R_NEG,  BUT_TRIM_L_NEG,  BUT_TRIM_L_POS,  \
 /*PB.9*/    BUT_TRIM_LV_NEG, BUT_TRIM_RV_POS, BUT_TRIM_LV_POS, BUT_LAST,        BUT_TRIM_RV_NEG, \
