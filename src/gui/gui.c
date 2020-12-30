@@ -734,7 +734,7 @@ unsigned handle_buttons(u32 button, unsigned flags, void *data)
         return modalActive;
     }
     if (flags & (BUTTON_LONGPRESS | BUTTON_RELEASE)) {
-       if ((flags & BUTTON_HAD_LONGPRESS) & (flags & BUTTON_RELEASE)) {
+       if ((flags & BUTTON_HAD_LONGPRESS) & (flags & BUTTON_PRESS)) {
             //ignore long-press release
             return modalActive;
         }

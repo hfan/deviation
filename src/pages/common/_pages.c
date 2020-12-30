@@ -53,7 +53,7 @@ unsigned default_button_action_cb(u32 button, unsigned flags, void *data)
             //Return to main page
             page_stack = _page_stack;
             PAGE_Pop();
-        } else if (flags & BUTTON_RELEASE) {
+        } else if (flags & BUTTON_PRESS) {
             PAGE_Pop();
         }
         return 1;
